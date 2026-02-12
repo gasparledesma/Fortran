@@ -1,2 +1,2 @@
 # Fortran
-Programas que desarrolle durante la cursada de métodos numéricos, y algunos programas que me sirvieron para algunos ejercicios de electrónica cuántica molecular, donde me sirvió ver el acoplamiento con muchos péndulos entre otras cosas.
+Programas que desarrolle durante la cursada en FAMAF de la materia métodos numéricos, en los programas hay metodos para resolver raices, para resolver ecuaciones difernciales, entre otras cosas; luego hay otra carpeta donde esos programas se usaron para la materia electrónica cuántica molecular, donde me sirvió ver el acoplamiento entre muchos péndulos, la densidad de estados de un sistema en cadena, entre otras cosas.
