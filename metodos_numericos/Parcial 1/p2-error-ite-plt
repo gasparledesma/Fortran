@@ -1,0 +1,18 @@
+set term x11 persist  
+
+set title 'Errores Relativos (por iteraciones)'
+set xlabel 'Iteraciones'                  
+set ylabel 'Errores relativos'
+set samples 600
+set xrange [1:10]
+set key top right
+set grid
+        
+plot "datos/biseccion.dat" using 1:3 with lines
+replot "datos/secante.dat" using 1:3 with lines
+replot "datos/newton.dat" using 1:3 with lines
+
+set terminal pdf enhanced font 'Helvetica,10'
+set output "graficos/p2-error-ite.pdf"
+
+replot
